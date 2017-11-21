@@ -5,16 +5,20 @@ import com.sun.speech.freetts.Voice;
 import com.sun.speech.freetts.VoiceManager;
 
 public class StephenHawking {
-	
+	public static void main(String[] args) {
 	// 1. make a main method and put steps 2, 3 & 4 inside it
-	
+		for (int i = 0; i < 10; i++) {
+			
+		
+		
+		String sentence= JOptionPane.showInputDialog("Enter a sentence");
 	// 2. ask the user for a sentence
-	
+		speak(sentence);
 	// 3. call the speak method below and send it the sentence
-
+		
 	// 4. repeat steps 2 and 3 a lot of times
-
-	
+	}
+	}
 	
 	
 	
